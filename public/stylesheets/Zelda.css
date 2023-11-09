@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+    background: linear-gradient(aqua, #00bfff);
+    height: 100vh;
+}
+
+.kombat h1 {
+    text-align: center;
+    padding: 0 0 20px 0;
+    border-bottom: 1px solid silver;
+}
+
+td:hover {
+  background-color: aqua;
+  cursor: pointer;
+}
+
+tr, td {
+  border: solid 1px #eee;
+  padding: 5px;
+}
+
+tr {
+  background-color: skyblue;
+  color: white;
+  text-align: left;
+  font-weight: bold;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  background-color: wh;
+}
